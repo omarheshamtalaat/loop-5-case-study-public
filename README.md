@@ -4,6 +4,8 @@ Loop 5 is a product-delivery system I developed while directing a private multim
 
 ![Sanitized fictional demonstration](assets/loop-5-preview.png)
 
+[Open the fictional interactive demo](https://omarheshamtalaat.github.io/loop-5-case-study-public/)
+
 ## The problem
 
 An AI agent can produce a convincing “done” message even when the accepted product outcome does not exist. Long automated sessions can also drift in scope, repeat failed work, lose evidence and blur the line between implementation and product decisions.
@@ -23,15 +25,15 @@ The result is a review-first workflow: AI can propose and implement inside an ap
 ## What this public repository proves
 
 - The product problem, operating principles and attribution can be explained publicly.
-- A clean-room fictional simulation and a more detailed private case study exist.
+- A clean-room fictional simulation is included and can be inspected or run without access to the private product.
 - The public material contains no Tiny Rice source, prompts, credentials, user data, internal paths or production configuration.
 
 ## What is deliberately not public
 
-This is not an open-source release. The reusable implementation, detailed orchestration design, interactive demo code, private evidence and the Tiny Rice repository remain private while commercial options are evaluated. A controlled walkthrough can be provided in an interview or serious diligence setting.
+This is not an open-source release of the production system. The reusable implementation, detailed orchestration design, private evidence and the Tiny Rice repository remain private while commercial options are evaluated. A controlled walkthrough can be provided in an interview or serious diligence setting.
 
 ## My role
 
-I defined the product outcome and constraints, reviewed trade-offs, decided where human approval was required, and directed agentic AI processes used to implement, test, audit and document the system. I present this as founder/product leadership and a system I can personally explain—not as a claim that I hand-coded every module.
+I defined the product outcome and constraints, reviewed trade-offs, decided where human approval was required, and directed agentic AI processes used to implement, test, audit and document the system. I can explain the system and its trade-offs; I do not claim that I hand-coded every module.
 
 © 2026 Omar Talaat. All rights reserved. See [LICENSE.md](LICENSE.md).

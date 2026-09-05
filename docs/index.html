@@ -1,0 +1,58 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="A clean-room fictional demonstration of the Loop 5 AI product-delivery lifecycle.">
+  <title>Loop 5 — fictional delivery simulation</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <main>
+    <header class="hero">
+      <p class="eyebrow">CLEAN-ROOM FICTIONAL DEMO</p>
+      <h1>Deliver one approved feature without surrendering product authority.</h1>
+      <p class="lede">FocusNote is imaginary. The task is to add an offline export. This simulation contains no Tiny Rice source, context or configuration.</p>
+    </header>
+
+    <section class="outcome" aria-labelledby="outcome-title">
+      <div>
+        <p class="label">Human-approved outcome</p>
+        <h2 id="outcome-title">Export a note as a local Markdown file</h2>
+        <p>The filename must be safe, the content must work offline, and a failed write must leave the original note unchanged.</p>
+      </div>
+      <div class="hash"><span>Plan commitment</span><code>sha256: 9f4c…a218</code></div>
+    </section>
+
+    <section class="workspace">
+      <div class="flow" aria-label="Delivery stages">
+        <ol id="stages"></ol>
+      </div>
+      <aside>
+        <div class="status-card">
+          <p class="label">Authoritative state</p>
+          <h2 id="stateName">Plan approved</h2>
+          <p id="stateDetail">The outcome, non-goals and acceptance checks are sealed.</p>
+          <dl>
+            <div><dt>Writer</dt><dd id="writer">Idle</dd></div>
+            <div><dt>Candidate</dt><dd id="candidate">None</dd></div>
+            <div><dt>Dependency</dt><dd id="dependency">Locked</dd></div>
+          </dl>
+        </div>
+        <div class="controls">
+          <button id="advance">Advance one stage</button>
+          <button id="run" class="secondary">Run to boundary</button>
+          <button id="inject" class="warning">Inject failing check</button>
+          <button id="reset" class="ghost">Reset</button>
+        </div>
+      </aside>
+    </section>
+
+    <section class="evidence" aria-live="polite">
+      <div class="evidence-heading"><div><p class="label">Immutable evidence log</p><h2>What the controller knows</h2></div><span id="eventCount">1 event</span></div>
+      <ol id="log"></ol>
+    </section>
+  </main>
+  <script src="app.js"></script>
+</body>
+</html>
